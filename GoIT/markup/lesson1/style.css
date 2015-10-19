@@ -1,0 +1,49 @@
+body {
+	border-bottom: 3px solid black;
+	background: #eeeeee;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+	width: 512px;
+	background: #fff;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5); #D3D3D3;
+	margin: 0 auto 45px auto;
+	padding: 50px;	
+}
+
+h1{
+   text-align: center;
+   font-size: 24px;  
+}
+
+img{
+	width: 135px;
+	border-radius:7px; 
+	border-radius:7px; 
+	border-radius:7px;
+}
+
+.foto{
+	display: block;
+	text-align: center;
+}
+
+.wrapper div {
+    padding-left: 55px;
+    border-bottom: 1px solid black;
+}
+
+li{
+	padding: 5px;
+}
+
+p, li, figcaption{
+	text-align: left;
+	font-size: 20px;
+    font-weight: 400;
+}
+
+div.in_addition{
+	border-bottom: none;
+}
