@@ -1,15 +1,15 @@
 body {
-	border-bottom: 3px solid black;
-	background: #eeeeee;
 	font-family: 'Times New Roman', Times, serif;
+	background: #eee;
 }
 
 .wrapper {
-	width: 512px;
-	background: #fff;
-	box-shadow: 0 0 3px rgba(0,0,0,0.5); #D3D3D3;
+	border-radius: 2px;
+	padding: 50px;
 	margin: 0 auto 45px auto;
-	padding: 50px;	
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	background: #fff;
+	width: 512px;	
 }
 
 h1{
@@ -30,8 +30,9 @@ img{
 }
 
 .wrapper div {
-    padding-left: 55px;
-    border-bottom: 1px solid black;
+    padding-left: 20px;
+    border-bottom: 1.5px solid black;
+    border-color: #808080
 }
 
 li{
@@ -39,9 +40,9 @@ li{
 }
 
 p, li, figcaption{
-	text-align: left;
-	font-size: 20px;
     font-weight: 400;
+    font-size: 20px;
+    text-align: left;
 }
 
 div.in_addition{
